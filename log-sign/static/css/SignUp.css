@@ -1,0 +1,419 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins");
+
+* {
+  font-family: "Poppins" !important;
+}
+
+/*the nav*/
+nav {
+  position: fixed;
+  width: 100%;
+  height: 72px;
+  left: 0px;
+  top: 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 6em;
+  background-color: rgba(26, 192, 115, 0.75);
+  color: white;
+}
+
+.foodz-icon {
+  background-image: url("../icons/foodz-icon.png");
+  height: 72px;
+  min-width: 72px;
+  width: 72px;
+  /* background-color: rgb(0, 0, 0); */
+  border-radius: 50%;
+}
+
+.nav-writings {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 383px;
+  height: 29px;
+  font-size: 18px;
+}
+
+.earth-icon {
+  background-image: url("../icons/earth-americas-solid.svg");
+  height: 29px;
+  width: 29px;
+  border-radius: 50%;
+  /* background-color: rgb(255, 255, 255); */
+}
+
+.language {
+  display: flex;
+  align-items: center;
+  gap: 3px;
+}
+
+.nav-buttons {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: nowrap;
+  align-items: center;
+  width: 257px;
+  height: 60px;
+}
+body {
+  background-color: rgba(220, 219, 219, 1);
+}
+
+.frame {
+  width: 40%;
+  position: fixed;
+  height: 100%;
+  background: rgba(255, 255, 255, 1);
+  top: 65%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 10px;
+  box-shadow: 5px 5px 4px rgba(0, 0, 0, 0.25);
+  overflow: auto;
+  align-items: center;
+  box-shadow: -1px -1px 4px 4px rgba(0, 0, 0, 0.25);
+}
+h1 {
+  color: rgba(38, 35, 36, 1);
+  font-family: Poppins;
+  font-weight: Regular;
+  font-size: 240%;
+  text-align: left;
+  position: absolute;
+  top: 10%;
+  left: 18%;
+  margin-bottom: 10%;
+}
+
+.logo {
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  top: 8%;
+  left: 7%;
+}
+
+.crossIcon {
+  width: 25px;
+  height: 25px;
+  position: absolute;
+  top: 1.5%;
+  left: 1.5%;
+}
+
+.joinLink {
+  color: rgba(253, 94, 0, 1);
+  font-family: Karla;
+  font-weight: Regular;
+  font-size: 21px;
+  text-decoration: underline;
+  position: absolute;
+  top: 94%;
+  left: 4%;
+}
+
+.joinLink:hover {
+  color: rgba(240, 80, 0, 1);
+  font-family: Karla;
+  font-weight: Regular;
+  font-size: 21px;
+  text-decoration: underline;
+  position: absolute;
+  top: 94%;
+  left: 4%;
+}
+.ownerButton {
+  width: 40%;
+  height: 7%;
+  background: rgba(242, 242, 242, 1);
+  opacity: 1;
+  position: absolute;
+  top: 30%;
+  left: 40%;
+  border-top-left-radius: 83px;
+  border-top-right-radius: 83px;
+  border-bottom-left-radius: 83px;
+  border-bottom-right-radius: 83px;
+  overflow: hidden;
+  border-style: hidden;
+  font-family: Poppins;
+  font-weight: Regular;
+  font-size: 20px;
+  color: rgba(38, 35, 36, 1);
+  box-shadow: inset -1.75px 1.75px 1.75px rgba(0, 0, 0, 0.5);
+  z-index: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+}
+
+.ownerButton:hover {
+  width: 40%;
+  height: 7%;
+  background: rgba(210, 210, 210, 1);
+  opacity: 1;
+  position: absolute;
+  top: 30%;
+  left: 40%;
+  border-top-left-radius: 83px;
+  border-top-right-radius: 83px;
+  border-bottom-left-radius: 83px;
+  border-bottom-right-radius: 83px;
+  overflow: hidden;
+  border-style: hidden;
+  font-family: Poppins;
+  font-weight: Regular;
+  font-size: 20px;
+  color: rgba(38, 35, 36, 1);
+  box-shadow: inset -1.75px 1.75px 1.75px rgba(0, 0, 0, 0.5);
+  z-index: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+}
+
+.custButton {
+  width: 30%;
+  height: 7%;
+  background: rgba(38, 35, 36, 1);
+  opacity: 1;
+  position: absolute;
+  top: 30%;
+  left: 20%;
+  border-top-left-radius: 83px;
+  border-top-right-radius: 83px;
+  border-bottom-left-radius: 83px;
+  border-bottom-right-radius: 83px;
+  box-shadow: 3.3533332347869873px 3.3533332347869873px 3px rgba(0, 0, 0, 0.25);
+  overflow: hidden;
+  border-style: hidden;
+  font-family: Poppins;
+  font-weight: Regular;
+  font-size: 20px;
+  color: rgba(242, 242, 242, 1);
+  z-index: 2;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+}
+
+.custButton:hover {
+  width: 30%;
+  height: 7%;
+  background: rgba(30, 27, 28, 1);
+  opacity: 1;
+  position: absolute;
+  top: 30%;
+  left: 20%;
+  border-top-left-radius: 83px;
+  border-top-right-radius: 83px;
+  border-bottom-left-radius: 83px;
+  border-bottom-right-radius: 83px;
+  box-shadow: 3.3533332347869873px 3.3533332347869873px 3px rgba(0, 0, 0, 0.25);
+  overflow: hidden;
+  border-style: hidden;
+  font-family: Poppins;
+  font-weight: Regular;
+  font-size: 20px;
+  color: rgba(242, 242, 242, 1);
+  z-index: 2;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+}
+
+.custButton2 {
+  width: 30%;
+  height: 7%;
+  background: rgba(242, 242, 242, 1);
+  opacity: 1;
+  position: absolute;
+  top: 30%;
+  left: 20%;
+  border-top-left-radius: 83px;
+  border-top-right-radius: 83px;
+  border-bottom-left-radius: 83px;
+  border-bottom-right-radius: 83px;
+  overflow: hidden;
+  border-style: hidden;
+  font-family: Poppins;
+  font-weight: Regular;
+  font-size: 20px;
+  color: rgba(38, 35, 36, 1);
+  box-shadow: inset -1.75px 1.75px 1.75px rgba(0, 0, 0, 0.5);
+  z-index: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+}
+
+.ownerButton2 {
+  width: 40%;
+  height: 7%;
+  background: rgba(38, 35, 36, 1);
+  opacity: 1;
+  position: absolute;
+  top: 30%;
+  left: 40%;
+  border-top-left-radius: 83px;
+  border-top-right-radius: 83px;
+  border-bottom-left-radius: 83px;
+  border-bottom-right-radius: 83px;
+  box-shadow: 3.3533332347869873px 3.3533332347869873px 3px rgba(0, 0, 0, 0.25);
+  overflow: hidden;
+  border-style: hidden;
+  font-family: Poppins;
+  font-weight: Regular;
+  font-size: 20px;
+  color: rgba(242, 242, 242, 1);
+  z-index: 2;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+}
+
+.inputf {
+  width: 85%;
+  height: 7%;
+  background: rgba(255, 255, 255, 1);
+  opacity: 1;
+  position: absolute;
+  top: 41%;
+  left: 5%;
+  border: 1.5340659618377686px solid rgba(38, 35, 36, 1);
+  border-radius: 15px;
+  overflow: hidden;
+  color: rgba(38, 35, 36, 1);
+  font-family: Karla;
+  font-weight: Regular;
+  font-size: 19px;
+  text-align: left;
+}
+
+.inputl {
+  width: 85%;
+  height: 7%;
+  background: rgba(255, 255, 255, 1);
+  opacity: 1;
+  position: absolute;
+  top: 50%;
+  left: 5%;
+  border: 1.5340659618377686px solid rgba(38, 35, 36, 1);
+  border-radius: 15px;
+  overflow: hidden;
+  color: rgba(38, 35, 36, 1);
+  font-family: Karla;
+  font-weight: Regular;
+  font-size: 19px;
+  text-align: left;
+}
+.inpute {
+  width: 85%;
+  height: 7%;
+  background: rgba(255, 255, 255, 1);
+  opacity: 1;
+  position: absolute;
+  top: 59%;
+  left: 5%;
+  border: 1.5340659618377686px solid rgba(38, 35, 36, 1);
+  border-radius: 15px;
+  overflow: hidden;
+  color: rgba(38, 35, 36, 1);
+  font-family: Karla;
+  font-weight: Regular;
+  font-size: 19px;
+  text-align: left;
+  
+}
+
+.inputp {
+  width: 85%;
+  height: 7%;
+  background: rgba(255, 255, 255, 1);
+  opacity: 1;
+  position: absolute;
+  top: 68%;
+  left: 5%;
+  border: 1.5340659618377686px solid rgba(38, 35, 36, 1);
+  border-radius: 15px;
+  overflow: hidden;
+  color: rgba(38, 35, 36, 1);
+  font-family: Karla;
+  font-weight: Regular;
+  font-size: 19px;
+  text-align: left;
+  
+}
+.inputp2 {
+  width: 85%;
+  height: 7%;
+  background: rgba(255, 255, 255, 1);
+  opacity: 1;
+  position: absolute;
+  top: 59%;
+  left: 5%;
+  border: 1.5340659618377686px solid rgba(38, 35, 36, 1);
+  border-radius: 15px;
+  overflow: hidden;
+  color: rgba(38, 35, 36, 1);
+  font-family: Karla;
+  font-weight: Regular;
+  font-size: 19px;
+  text-align: left;
+}
+
+.signupButton {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 60%;
+  height: 9%;
+  background: #1ac073;
+  opacity: 1;
+  position: absolute;
+  top: 85%;
+  left: 20%;
+  border-radius: 10px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  overflow: hidden;
+  color: rgba(255, 255, 255, 1);
+  font-family: Poppins;
+  font-weight: Regular;
+  font-size: 27px;
+  text-decoration: none;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.signupButton:hover {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 60%;
+  height: 9%;
+  background: #159e63;
+  opacity: 1;
+  position: absolute;
+  top: 85%;
+  left: 20%;
+  border-radius: 10px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  overflow: hidden;
+  color: rgba(255, 255, 255, 1);
+  font-family: Poppins;
+  font-weight: Regular;
+  font-size: 27px;
+  text-decoration: none;
+  margin-left: auto;
+  margin-right: auto;
+}

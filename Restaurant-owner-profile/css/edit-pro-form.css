@@ -1,0 +1,71 @@
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    font-size: 22px;
+    font-family: 'Inter', 'Trip Sans VF', 'Trip Sans', Arial, sans-serif;
+}
+.form-title{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: rgb(254,126,15,0.63);
+}
+.edit-pro-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 60%;
+    margin: 0 auto;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 10px;
+    background-color: rgba(26, 192, 115, 0.5);
+  }
+  
+  label {
+    font-weight: bold;
+    margin-top: 10px;
+  }
+  
+  input[type="text"], textarea {
+    padding: 8px;
+    margin-bottom: 16px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 14px;
+    width: 100%;
+    box-sizing: border-box;
+  }
+  
+  fieldset {
+    margin-top: 20px;
+    border-color: white;
+    width: 90%;
+  }
+  .contact-inp{
+    width: 50%;
+  }
+  
+  legend {
+    font-weight: bold;
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+  
+  input[type="submit"] {
+    background-color: #FE7E0F;
+    padding: 8px 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 18px;
+    margin-top: 20px;
+    width: 30%;
+  }
+  
+  input[type="submit"]:hover {
+    background-color: #f46d06;
+  }

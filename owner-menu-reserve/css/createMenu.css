@@ -1,0 +1,249 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins");
+
+* {
+  font-family: "Poppins" !important;
+}
+@media (max-width: 767px) {
+  nav {
+    height: 72px;
+  }
+  
+  body {
+    margin-top: 72px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  nav {
+    height: 75px;
+  }
+  
+  body {
+    margin-top: 75px;
+  }
+}
+/*the nav*/
+nav {
+  position: fixed;
+  width: 100%;
+  left: 0px;
+  top: 0px;
+  z-index: 100;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 6em;
+  background-color: rgb(83 208 150);
+  color: white;
+}
+
+.foodz-icon {
+  background-image: url("../icons/foodz-icon.png");
+  height: 72px;
+  min-width: 72px;
+  width: 72px;
+  /* background-color: rgb(0, 0, 0); */
+  border-radius: 50%;
+}
+
+.nav-writings {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 383px;
+  height: 29px;
+  font-size: 18px;
+}
+
+.earth-icon {
+  background-image: url("../icons/earth-americas-solid.svg");
+  height: 29px;
+  width: 29px;
+  border-radius: 50%;
+  /* background-color: rgb(255, 255, 255); */
+}
+
+.language {
+  display: flex;
+  align-items: center;
+  gap: 3px;
+}
+
+.nav-buttons {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: nowrap;
+  align-items: center;
+  width: 257px;
+  height: 60px;
+}
+body {
+  background-color: rgba(220, 219, 219, 1);
+}
+
+
+.frame {
+  width: 40%;
+  position: fixed;
+  height: 100%;
+  background: rgba(255, 255, 255, 1);
+  top: 65%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 10px;
+  box-shadow: 5px 5px 4px rgba(0, 0, 0, 0.25);
+  overflow:auto;
+  /* align-items: center; */
+  box-shadow: -1px -1px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.logo {
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  top: 8%;
+  left: 7%;
+}
+
+
+
+body {
+  background-image: url("../imgs/Background_menu-creation.jpg");
+  background-color: black;
+  background-size: contain;
+  background-repeat: repeat;
+  font-family: "Poppins";
+}
+
+
+
+.menu-creating-title {
+  background-color: #f2d6b3;
+  color: black;
+  font-size: 24px;
+  font-weight: normal;
+  display: flex;
+  justify-content: center;
+  width: 419px;
+  height: 45px;
+  position: relative;
+  left: 0.27%;
+  right: 0%;
+  top: -150px;
+  bottom: 0%;
+  font-family: "Poppins";
+  background: rgba(242, 214, 179, 0.78);
+  border-radius: 20px;
+  padding: 10px;
+  margin: auto;
+}
+
+.menu-container {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  top: 10px;
+}
+
+.dish-name {
+  background-color: #8b8787;
+  color: white;
+  height: 55px;
+  /* width: 166px; */
+
+  width: 140px;
+  margin: 0;
+  padding: auto;
+  border-radius: 0 0 10px 10px;
+}
+
+.dish-img {
+  background-color: #d9d9d9;
+  width: 140px;
+  height: 165px;
+  border-radius: 10px 10px 0 0;
+}
+
+.dish-box {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+section {
+  transform: translateY(290px);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 50px;
+  padding: 50px;
+}
+
+.scroll-left-icon {
+  width: 55px;
+  height: 55px;
+  background-image: url("../icons/go-left.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.category {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 20px;
+}
+
+.category-title {
+  color: white;
+  font-size: 24px;
+  font-weight: lighter;
+}
+
+.dish-category {
+  display: flex;
+  gap: 60px;
+}
+
+.add-dish-box {
+  background-image: url("../icons/add.png");
+  width: 55px;
+  height: 55px;
+
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.dishes-list {
+  display: flex;
+  gap: 48px;
+}
+.add-category-text {
+  color: white;
+  display: flex;
+  text-decoration: none;
+  font-family: "Poppins";
+}
+.add-category-text:link {
+  color: inherit;
+  font-size: 24px;
+}
+.add-category {
+  color: white;
+  font-size: 24px;
+  margin-top: 150px;
+  display: flex;
+  gap: 10px;
+  text-decoration: none;
+}
+
+.add-category-icon {
+  width: 35px;
+  height: 35px;
+  background-image: url("../icons/add.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin-right: 10px;
+}

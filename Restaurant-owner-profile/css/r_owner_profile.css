@@ -1,0 +1,416 @@
+*{
+    margin: 0px;
+    font-family: 'Inter', 'Trip Sans VF', 'Trip Sans', Arial, sans-serif !important;
+    font-weight:600;
+}
+
+button:hover{
+    background-color: #f46d06;
+}
+/*the nav ###############################################*/
+nav{
+    position: fixed;
+    top:0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 6em;
+    background-color: rgba(26, 192, 115, 1.0);
+    width: 100%;
+    height: 72px;
+    color: white;
+}
+
+.foodz-icon{
+    height: 72px;
+    min-width: 72px;
+    width: 72px;
+    background-image: url("../iconOwner/logo.png");
+    border-radius: 50%;
+}
+
+.nav-writings{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 383px;
+    height: 29px;
+    font-size: 18px;
+}
+
+.earth-icon{
+    height: 29px;
+    width: 29px;
+    border-radius: 50%;
+    background-image: url("../iconOwner/earth-americas-solid.svg");
+}
+
+.language{
+    display:flex;
+    align-items: center;
+    gap: 3px;
+}
+
+.nav-buttons{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+    align-items: center;
+    width: 257px;
+    height: 60px;
+}
+
+.logout-button{
+    background-color: #FE7E0F;
+    border: 0;
+    color: white;
+    font-size: 24px;
+    width: 114px;
+    height: 60px;
+
+}
+/*#####################################################*/
+/*MENU_RESERVATION_ORDERS*/
+.menu_res_ord{
+    display: flex;
+    justify-content: right;
+    align-items:center;
+    font-size:24px;
+    gap: 20px;
+    width: 100%;
+    height: 50px;
+    color: white;
+    position: fixed;
+    top: 75px;
+}
+
+.MENU,.Reservation,.Orders{
+    background-color: #FE7E0F;
+    display: inline-flex;
+    border: 0;
+    justify-content: left;
+    align-items: center;
+    gap: 1px;
+    color: white;
+    font-size: 24px;
+    width: 186px;
+    height: 47px;
+    border-radius: 5%;
+    cursor: pointer;
+}
+.edit-pro{
+    cursor: pointer;
+    background-color:#FE7E0F;
+}
+/*
+.Reservation{
+    background-color: #FE7E0F;
+    border: 0;
+    display: inline-flex;
+    justify-content: left;
+    align-items: center;
+    gap: 1px;
+    color: white;
+    font-size: 24px;
+    width: 186px;
+    height: 47px;
+    border-radius: 5%;
+}
+
+.Orders{
+    background-color: #FE7E0F;
+    border: 0;
+    display: inline-flex;
+    justify-content: left;
+    align-items: center;
+    gap: 1px;
+    color: white;
+    font-size: 24px;
+    width: 186px;
+    height: 47px;
+    border-radius: 5%;
+}*/
+
+.MENU_icon{
+    height: 40px;
+    width: 40px;
+    background-image: url("../iconOwner/menu-icon.svg");
+}
+
+.Reservation_icon{
+    height: 40px;
+    width: 40px;
+    background-image: url("../iconOwner/reservation-icon.svg");
+}
+
+.Orders_icon{
+    height: 40px;
+    width: 40px;
+    background-image: url("../iconOwner/order-icon.svg");
+}
+
+.image_location{
+    display: flex;
+    height: 600px;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    margin-top: 60px;
+    gap : 50px;
+}
+.text{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    color: black;
+    padding: 10px;
+    border: 1px solid black;
+    display: none;
+}
+.restau_image:hover + .text {
+    display: block;
+  }
+.restau_image{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 320px;
+    width: 600px;
+    background-color: rgb(234, 234, 234);
+}
+
+.map{
+   /* height: 320px;
+    width: 600px;*/
+    z-index: -3;
+}
+
+.restau_name{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 64px;
+    height: 140px;
+    width: 100%;
+    background-color: rgba(26, 192, 115, .75);
+    color: white;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: rgb(0, 0, 0, 0.43);
+    margin-top: 10px;   
+}
+.edit3{
+    position : relative;
+    top:0; 
+    right: 0;
+}
+/*----------------------------------------------------------------------------------------*/
+.page_2{
+    height: 720px;
+    width: 100%;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    gap: 70px;
+}
+
+.description{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    background-color: #f2d6b39e;
+    width: 45%;
+    height: 580px;
+    border-radius: 5%;
+}
+/*
+.desc-edit{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items:center;
+    gap: 5px;
+}*/
+
+.desc-edit{
+    align-items: center;
+    width: 600px;
+    height: 95px;
+}
+.descri{
+    font-size: 40px;
+    color: #FD5E00;
+}
+
+.desc{
+    width: 99%;
+    height: 380pc;
+    line-height: 30px;
+    text-indent: 20px;
+    
+}
+
+.edit-icon{
+    height: 46.39px;
+    width: 50px;
+    background-image: url("../iconOwner/edit-icon.png");
+}
+
+.contact-rate-com{
+    display: flex;
+    flex-direction: column;
+    width: 45%;
+    height: 580px;
+    gap: 17px;
+}
+
+.contact-info{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+    width: 99%;
+    height: 300px;
+    background-color: #f2d6b39e;
+    border-radius: 5%;
+    gap: 10px;
+}
+
+.text-contact{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items:center;
+    font-size: 40px;
+    color: #FD5E00;
+}
+
+.edit-icon2{
+    height: 21px;
+    width: 21px;
+    background-image: url("../iconOwner/edit-icon.png");
+}
+
+.phone{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items:center;
+    gap: 10px;
+}
+
+.phone-icon{
+    height: 30.9px;
+    width: 33px;
+    background-image: url("../iconOwner/phone.png");
+}
+
+.phone-num{
+    font-size: 15px;
+    border-radius: 10px;
+    border:1px solid black;
+    color: rgba(0, 0, 0, 0.563);
+    background-color: white;
+    padding: 5px;   
+    
+}
+
+.fb{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items:center;
+    gap: 10px;
+}
+
+.fb-icon{
+    height: 30.9px;
+    width: 33px;
+    background-image: url("../iconOwner/fb.png");
+    background-repeat: no-repeat;
+}
+
+.fb-page{
+    font-size: 15px;
+    border-radius: 10px;
+    border:1px solid black;
+    color: rgba(0, 0, 0, 0.563);
+    background-color: white;
+    padding: 5px;   
+}
+
+.insta{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items:center;
+    gap: 10px;
+}
+
+.insta-icon{
+    height: 30.9px;
+    width: 33px;
+    background-image: url("../iconOwner/insta.png");
+    background-repeat: no-repeat;
+}
+
+.insta-page{
+    font-size: 15px;
+    border-radius: 10px;
+    border:1px solid black;
+    color: rgba(0, 0, 0, 0.563);
+    background-color: white;
+    padding: 5px;
+}
+
+.rating-comments{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+    width: 99%;
+    height: 340px;
+    background-color: #f2d6b39e;
+    border-radius: 5%;
+    gap: 10px;
+}
+
+.rating{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items:start;
+    gap: 2px;
+    width: 99%;
+    height: 47px;
+}
+
+.comments{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items:start;
+    gap: 2px;
+    width: 99%;
+    height: 47px;
+}
+
+.star5{
+    height: 24.78px;
+    width: 31.5px;
+    background-image: url("../iconOwner/5star.png");
+}
+
+.star4-5{
+    height: 24.78px;
+    width: 31.5px;
+    background-image: url("../iconOwner/4.5star.png");
+}
+.scroll-comm{
+    overflow-y: scroll;
+    width: 99%;
+    height: 200px;
+}

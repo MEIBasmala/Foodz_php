@@ -1,0 +1,210 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins");
+
+* {
+  font-family: "Poppins" !important;
+}
+
+
+/*the nav*/
+nav {
+  position: fixed;
+  width: 100%;
+  height: 72px;
+  left: 0px;
+  top: 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 6em;
+  background-color: rgb(83 208 150);
+  color: white;
+}
+
+.foodz-icon {
+  background-image: url("../iconsn/foodz-icon-nav-bar.svg");
+  height: 72px;
+  min-width: 72px;
+  width: 72px;
+  background-color: white;
+  border-radius: 50%;
+}
+
+.nav-writings {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 383px;
+  height: 29px;
+  font-size: 18px;
+}
+
+.earth-icon {
+  height: 29px;
+  width: 29px;
+  border-radius: 50%;
+  background-color: white;
+}
+
+.language {
+  display: flex;
+  align-items: center;
+  gap: 3px;
+}
+
+.nav-buttons {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: nowrap;
+  align-items: center;
+  width: 257px;
+  height: 60px;
+}
+.reservation-container {
+  width: 99%;
+  height: 86%; 
+  position: fixed;
+  box-sizing: border-box;
+  background: rgba(255, 255, 255, 1);
+  top: 56%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 10px;
+  box-shadow: 5px 5px 4px rgba(0, 0, 0, 0.25);
+  overflow: hidden;
+  align-items: center;
+  box-shadow: -1px -1px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.crossIcon {
+  width: 25px;
+  height: 25px;
+  position: absolute;
+  top: 1.5%;
+  left: 1.5%;
+}
+h1 {
+  position: absolute;
+  width: 428px;
+  height: 52px;
+  left: calc(48% - 428px / 2);
+  top: calc(55% - 52px / 2 - 218.5px);
+  margin: 0; /* removes any margin that may be causing the element to move to a new line */
+  padding: 0 10px; /* adds padding to the left and right of the element to create space */
+  font-style: normal;
+  font-weight: 500;
+  font-size: 37px;
+  clear: both;
+  color: #212b27;
+}
+.c_email{
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 10px;
+  position: absolute;
+  width: 450px;
+  height: 40px;
+  left: 50px;
+  top: 130px;
+  background: #ffffff;
+  border: 1px solid #000000;
+  border-radius: 14px;
+  padding: 10px;
+
+}
+select {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 10px;
+  position: absolute;
+  width: 450px;
+  height: 40px;
+  left: 50px;
+  top: 190px;
+  background: #ffffff;
+  border: 1px solid #000000;
+  border-radius: 14px;
+  padding: 10px;
+}
+
+.nSeats {
+  box-sizing: border-box;
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;
+  position: absolute;
+  width: 450px;
+  height: 40px;
+  left: 50px;
+  top: 250px;
+  background: #ffffff;
+  border: 1px solid #000000;
+  border-radius: 14px;
+  padding: 10px;
+}
+.r-time {
+  box-sizing: border-box;
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;
+  position: absolute;
+  width: 450px;
+  height: 40px;
+  left: 50px;
+  top: 310px;
+  background: #ffffff;
+  border: 1px solid #000000;
+  border-radius: 14px;
+  padding: 10px;
+}
+
+.r-date {
+  box-sizing: border-box;
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;
+  position: absolute;
+  width: 450px;
+  height: 40px;
+  left: 50px;
+  top: 370px;
+  border: 1px solid #000000;
+  border-radius: 14px;
+  padding: 10px;
+}
+
+.submit-container {
+  position: fixed;
+  width: 360px;
+  height: 40px;
+  left: 6%;
+  top: 85%;
+  background: #f27830;
+  border-radius: 15px;
+  font-family: "Karla";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 550;
+  border: none;
+
+  /* or 130% */
+
+  text-align: center;
+  color: #ffffff;
+  text-decoration: none;
+  padding: 10px;
+}
+
+.submit-container:link {
+  color: white;
+  font-family: "poppoins";
+}
+.book-a-table-pic{
+  position:absolute;
+  width: 35%;
+  top:25%;
+  left: 55%;
+  border-radius: 5px;
+}

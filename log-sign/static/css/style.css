@@ -1,0 +1,1055 @@
+*{
+    margin: 0px;
+    font-family: 'Inter', 'Trip Sans VF', 'Trip Sans', Arial, sans-serif !important;
+    font-weight: 600;
+    color: white;
+    box-sizing: border-box;
+}
+
+input{
+    color: black;
+    
+}
+
+button{
+    border: 0;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+
+
+/*the nav*/
+nav{
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /*gap: 6em;*/
+    background-color: rgba(26, 192, 115, 1);
+    width: 100%;
+    padding-left: 71px;
+    padding-right: 71px;
+    height: 72px;
+    color: white;
+}
+
+.foodz-icon{
+    background-image: url("../iconsn/foodz-icon-nav-bar.svg");
+    height: 72px;
+    min-width: 72px;
+    width: 72px;
+    background-color: white;
+    border-radius: 50%;
+}
+
+.nav-writings{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 383px;
+    height: 29px;
+    font-size: 18px;
+    z-index: 2;
+}
+
+.earth-icon{
+    background-image: url("../iconsn/earth-white.svg");
+    height: 29px;
+    width: 29px;
+    border-radius: 50%;
+}
+
+.language{
+    display:flex;
+    align-items: center;
+    gap: 3px;
+}
+
+.nav-buttons{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+    align-items: center;
+    width: 257px;
+    height: 60px;
+}
+
+.home:hover,
+.about:hover,
+.contact-us:hover,
+.language:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.login-button,
+.join-button{
+    background-color: #FE7E0F;
+    border: 0;
+    color: white;
+    font-size: 24px;
+    width: 114px;
+    height: 60px;
+
+}
+
+.nav-writings .nav-buttons,
+.xmark{
+    position: absolute;
+    visibility: hidden;
+}
+
+.xmark{
+    background-image: url("../iconsn/xmark-solid.svg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    opacity: .6;
+    width: 40px;
+    height: 40px;
+}
+
+.humberger{
+    position: absolute;
+    visibility: hidden;
+    background-image: url("../iconsn/humberger.svg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    opacity: .6;
+    min-width: 40px;
+    min-height: 40px;
+    margin-right: 10px;
+    align-self: center;
+    cursor: pointer;
+}
+
+
+/*hero section*/
+
+.hero-section{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    height: 728px;
+    background-color: rgba(26, 192, 115, .49);
+    /*gap: 50px;*/
+}
+
+.hero-section-stuff{
+    display: flex;
+    flex-direction: column;
+    font-size: clamp(40px, 4.73vw, 50px);
+    gap: 69px;
+    width: 50%;
+    max-width: 688px;
+}
+
+.checkout-restaurants,
+.from-all-places-in-Algeria{
+    text-align: left;
+    color: white;
+    padding: 2%;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: rgb(0, 0, 0, 0.43);
+}
+
+.loupe-icon{
+    background-image: url("../iconsn/magnifying-glass-gray.svg");
+    position: absolute;
+    width: 41px;
+    height: 41px;
+    transform: translateX(29px);
+}
+
+.hero-section-search{
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+
+.hero-section-search-input{
+    width: 651px;
+    width: 100%;
+    height: 72px;
+    border: 0;
+    padding-left: 135px;
+    font-size: 16px;
+}
+
+.hero-section-image{
+    background-image: url("../iconsn/hero\ section\ pic.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /*min-width: 400px;*/
+    width: 31.87%;
+    min-width: 450px;
+    /*aspect-ratio: 459 / 473;*/
+    height: 473px;
+}
+
+.hero-section-search-button{
+    background-color: #FE7E0F;
+    border: 0;
+    color: white;
+    font-size: 24px;
+    width: 153px;
+    height: 72px;
+}
+
+/*motivation section*/
+.motivation-section{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    padding: 87px 3%;
+    /*height: 570px;*/
+}
+
+.motivation-section-sub-section1,
+.motivation-section-sub-section2,
+.motivation-section-sub-section3{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
+    width: 420px;
+    max-width: 420px;
+    min-width: 260px;
+    /*height: 396px;*/
+    aspect-ratio: 420 / 396;
+    margin: 10px;
+    padding: 10px;
+}
+
+.sub-section1-icons{
+    background-image: url("../iconsn/subimg1.svg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 66%;
+    max-width: 279px;
+    aspect-ratio: 279 / 105;
+    /*height: 105px;*/
+}
+
+.sub-section2-icons{
+    background-image: url("../iconsn/sub2img.svg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 63%;
+    max-width: 265px;
+    aspect-ratio: 265 / 101;
+    /*height: 101px;*/
+}
+
+.sub-section3-icons{
+    background-image: url("../iconsn/sub3img.svg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 69%;
+    max-width: 291px;
+    aspect-ratio: 291 / 150;
+    /*height: 150px;*/
+}
+
+.motivation-section-sub-section1{
+    background-color: rgba(26, 192, 115, .49);
+}
+
+.motivation-section-sub-section2{
+    background-color: #FE7E0F;
+}
+
+.motivation-section-sub-section3{
+    background-color: rgba(26, 192, 115, .49);
+}
+
+.sub-section-title,
+.sub-section-para{
+    color: white;
+    font-size: 32px;
+    max-width: 300px;
+    align-items: center;
+    text-align: center;
+}
+
+.sub-section-para{
+    font-size: 16px;
+}
+
+/*about us section*/
+.about-us-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3%;
+    padding: 63px 5%;
+    /*min-height: 544px;*/
+    background-color: #f2f2f2;
+}
+
+.about-us-image{
+    background-image: url("../iconsn/About\ us\ restaurant\ 1.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 43.68%;
+    min-width: 400px;
+    aspect-ratio: 619 / 438;
+}
+
+.about-us-section-writings{
+    display: flex;
+    flex-direction: column;
+    gap: 37px;
+    max-width: 619px;
+}
+
+.about-us-section-writings .about-us-image{
+    position: absolute;
+    visibility: hidden;
+    width: none;
+    height: none;
+}
+
+.about-us-section-writings-para1,
+.about-us-section-writings-para2{
+    font-size: 1.67vw;
+    color: black;
+}
+
+.about-us-section-writings-title{
+    font-size: 5vw;
+    color: black;
+}
+
+
+/*display restaurants section*/
+.display-restaurants-section{
+    display: flex;
+    flex-direction: column;
+    gap: 46px;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 1000px;
+}
+
+.popular-restaurants,
+.restaurants-near-you{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 342px;
+}
+
+.display-restaurants-section-title{
+    width: 90%;
+    height: fit-content;
+    font-size: clamp(24px, 2.5vw, 32px);
+    color: black;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.restaurant-list{
+    display: flex;
+    gap: 55px;
+}
+
+.restaurant-box{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    /*height: 235px;*/
+    width: 250px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+.restaurant-box:hover{
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+}
+
+.restaurant-info{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 277px;
+    height: 103px;
+}
+
+.restaurant-name{
+    font-size: 16px;
+    color: black;
+}
+
+.review{
+    display: flex;
+    gap: 10px;
+    font-size: 12px;
+    color: #cccccc;
+}
+
+.go-left-icon{
+    background-image: url("../iconsn/go-left-in-list.svg");
+    width: 62px;
+    height: 62px;
+}
+
+.go-right-icon{
+    background-image: url("../iconsn/go-right-in-list.svg");
+    width: 62px;
+    height: 62px;
+}
+
+.restaurant-img{
+    width: 250px;
+    height: 200px;
+    background-image: url("../iconsn/restaurant-image-box-2.jpg");
+    border-radius: 10px;
+}
+
+.stars-rating{
+    width: 72px;
+    height: 14px;
+    background-image: url("../iconsn/stars-rating.svg");
+}
+
+/*restaurant-owner-section*/
+.restaurant-owner-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 760px;
+    background-color: #f2f2f2;
+}
+
+.restaurant-owner-sub-section{
+    background-image: url("../iconsn/restaurantOwner\ 1.jpg");
+    width: 90%;
+    max-width: 1300px;
+    height: 564px;
+    padding: 3%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 35px;
+    font-size: 24px;
+    color: white;
+}
+
+.restaurant-owner-sub-section-title{
+    display: flex;
+    text-align: center;
+    font-size: clamp(32px, 4.44vw, 48px);
+}
+
+.restaurant-owner-sub-section-para{
+    text-align: center;
+    font-size: clamp(18px, 3vw, 24px);
+}
+
+.restaurant-owner-sub-section-buttons{
+    display: flex;
+    gap: 54px;
+}
+
+.become-a-restaurant-owner-button{
+    background-color: #FE7E0F;
+    width: 15em;
+    font-size: clamp(18px, 3vw, 24px);
+}
+
+.learn-more-button{
+    background-color: #1AC073;
+    width: 10em;
+    padding: 0.5em 1em;
+    font-size: clamp(18px, 3vw, 24px);
+}
+
+/*footer section
+.footer-up{
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+    width: 100%;
+    height: 671px;
+}
+
+.logo-and-contact-info,
+.site-map{
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: rgb(0, 0, 0, 0.75);
+}
+
+.contact-us-form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 616px;
+    gap: 25px;
+}
+
+.explanation-text{
+    display: flex;
+    flex-direction: column;
+}
+
+.do-you-have-a-question,
+.or-want-to-report-something,
+.more-explanation{
+    font-size: 24px;
+    color: black;
+}
+
+.more-explanation{
+    font-size: 16px;
+}
+
+.user-inputs{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 25px;
+    width: 300px;
+}
+
+.user-info{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 16px;
+    width: 616px;
+    height: 58px;
+}
+
+.user-name,
+.user-email,
+.user-msg{
+    border: solid black 1px;
+    border-radius: 10px;
+    height: 58px;
+    padding-left: 20px;
+}
+
+.user-name,
+.user-email{
+    width: 300px;
+}
+
+.user-msg{
+    width: 100%;
+    height: 215px;
+    width: 592.4px;
+    padding-left: 20px;
+    padding-top: 20px;
+}
+
+.phone-number-footer{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    font-size: 24px;
+}
+
+.email-footer{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    font-size: 24px;
+}
+
+.send-footer{
+    width: 114px;
+    height: 60px;
+    background-color: #FE7E0F;
+}
+
+.logo-and-contact-info{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 66px;
+    transform: translateY(-76px);
+}
+
+.site-map{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 38px;
+    transform: translateY(-78px);
+}
+
+.site-map-title{
+    font-size: 64px;
+}
+
+.site-map-explanation{
+    font-size: 36px;
+}
+
+.site-map-pages-list{good
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.foodz-icon-footer{good
+    background-image: url("../iconsn/footer-foodz-icon.svg");
+    height: 175px;
+    width: 175px;
+}
+
+.phone-icon-footer{good
+    background-image: url("../iconsn/footer-phone-icon.svg");
+    width: 29px;
+    height: 30px;
+}
+
+.email-icon-footer{good
+    background-image: url("../iconsn/footer-email-icon.svg");
+    width: 29px;
+    height: 29px;
+}
+
+.footer-down{good
+    display: flex;
+    background-color: rgba(26, 192, 115, .49);
+    width: 100%;
+    height: 50px;
+}*/
+
+.footer-up{
+    display: flex;
+    justify-content: space-between;
+    padding: 5%;
+}
+
+.contact-us-form{
+    width: 48%;
+    max-width: 616px;
+}
+
+.explanation-text{
+    padding: 10px;
+}
+
+.do-you-have-a-question,
+.or-want-to-report-something,
+.more-explanation{
+    color: black;
+    font-size: 24px;
+
+}
+
+.more-explanation{
+    font-size: 16px;
+}
+
+.user-inputs{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.user-name,
+.user-email,
+.user-msg{
+    border: solid black 1px;
+    border-radius: 10px;
+    height: 58px;
+    padding-left: 20px;
+    margin-bottom: 25px;
+}
+
+.user-name,
+.user-email{
+    width: 48%;
+    max-width: 300px;
+}
+
+.send-footer{
+    padding: 0.5em 1em;
+    background-color: #FE7E0F;
+    font-size: 24px;
+}
+
+.user-msg{
+    width: 100%;
+    height: 215px;
+    
+    padding-left: 20px;
+    padding-top: 20px;
+}
+
+.logo-and-contact-info{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 70px;
+}
+
+.contact-info-footer{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    font-size: 24px;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: rgb(0, 0, 0, 1);
+}
+
+.phone-number-footer,
+.email-footer{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+
+
+.site-map{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.site-map-title{
+    font-size: clamp(40px, 4.44vw, 64px);
+}
+
+.site-map-explanation{
+    font-size: clamp(24px, 2.5vw, 36px);
+}
+
+.site-map-title,
+.site-map-explanation{
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: rgb(0, 0, 0, 1);
+    font-weight: bold;
+}
+
+.site-map-pages-list{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.foodz-icon-footer{
+    background-image: url("../iconsn/footer-foodz-icon.svg");
+    height: 175px;
+    width: 175px;
+}
+
+.phone-icon-footer{
+    background-image: url("../iconsn/footer-phone-icon.svg");
+    width: 29px;
+    height: 30px;
+}
+
+.email-icon-footer{
+    background-image: url("../iconsn/footer-email-icon.svg");
+    width: 29px;
+    height: 29px;
+}
+
+.footer-down{
+    display: flex;
+    background-color: rgba(26, 192, 115, .49);
+    width: 100%;
+    height: 50px;
+}
+
+@media screen and (max-width: 1150px) {
+    .motivation-section{
+        flex-wrap: wrap;
+    }
+    .footer-up{
+        padding: 5% 2%;
+    }
+}
+
+/*footer section 2*/
+
+
+@media screen and (max-width: 968px){
+    nav{
+        padding-left: 2%;
+        padding-right: 2%;
+    }
+
+    .hero-section{
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+
+    .hero-section-stuff{
+        align-items: center;
+        text-align: center;
+        width: 100%;
+    }
+    .checkout-restaurants,
+    .from-all-places-in-Algeria{
+        text-align: center;
+    }
+
+    .hero-section-search{
+        width: 90%;
+        height: 58px;
+    }
+
+    .hero-section-search-button{
+        width: 20%;
+        min-width: 110px;
+    }
+    .hero-section-image{
+        position: absolute;
+        max-width: 0;
+        min-width: 0;
+    }
+    .motivation-section{
+        justify-content: space-around;
+    }
+
+    .about-us-section-writings-para1,
+    .about-us-section-writings-para2{
+        font-size: 16px;
+    }
+    
+    .about-us-section-writings-title{
+        font-size: 48px;
+    }
+    .about-us-section{
+        padding: 40px 3%;
+    }
+
+    .footer-up{
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 50px;
+    }
+
+    .contact-us-form{
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 850px){
+    @keyframes side-bar-animation {
+        0%{
+            left: calc(100% - max(45%, 200px));
+        }
+
+        100%{
+            left: 100%;
+        }
+    }
+
+    nav{
+        align-items: start;
+    }
+
+    .nav-writings{
+        position: absolute;
+        left: calc(100% - max(45%, 200px));
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: start;
+        height: 100vh;
+        width: 45%;
+        min-width: 200px;
+        background-color: #FE7E0F;
+    }
+
+    .home,
+    .about,
+    .language,
+    .contact-us{
+        display: flex;
+        height: 60px;
+        width: 100%;
+        border-top: solid rgba(0, 0, 0, 0.16);
+        padding-left: 10px;
+        align-items: center;
+    }
+
+    .contact-us{
+        border-bottom: solid rgba(0, 0, 0, 0.16);
+    }
+
+    .nav-writings .nav-buttons,
+    .xmark{
+        position: static;
+    }
+
+    nav .login-button,
+    nav .join-button{
+        visibility: hidden;
+    }
+
+    .nav-buttons{
+        position: static;
+        flex-direction: column;
+        width: 100%;
+        padding-top: 50px;
+        gap: 20px;
+        height: fit-content;
+        align-items: center;
+    }
+
+    .nav-writings .login-button,
+    .nav-writings .join-button{
+        visibility: visible;
+        background-color: #1AC073;
+    }
+
+    .xmark{
+        visibility: visible;
+        margin-top: 16px;
+        margin-bottom: 16px;
+        margin-left: 10px;
+        cursor: pointer;
+    }
+
+    .humberger{
+        position: static;
+        visibility: visible;
+    }
+
+    .about-us-section{
+        flex-direction: column;
+    }
+
+    .about-us-section-writings{
+        align-items: center;
+    }
+    .about-us-image{
+        position: absolute;
+        visibility: hidden;
+        min-width: 0;
+        width: 0;
+    }
+
+    .about-us-section-writings .about-us-image{
+        position: static;
+        visibility: visible;
+        width: 80%;
+        min-width: 80%;
+    }
+
+    .nav-be-hidden{
+        left: 100%;
+        animation-name: side-bar-animation;
+        animation-duration: .6;
+        animation-iteration-count: infinite;
+        animation-timing-function: ease-in;
+    }
+
+    .nav-be-visible{
+        left: calc(100% - max(45%, 200px));
+        animation-name: side-bar-animation;
+        animation-duration: .6;
+        animation-iteration-count: infinite;
+        animation-timing-function: ease-in;
+        animation-direction: reverse;
+    }
+}
+
+@media screen and (max-width: 600px){
+    .restaurant-owner-sub-section{
+        gap: 15px;
+    }
+    .restaurant-owner-sub-section-buttons{
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .learn-more-button,
+    .become-a-restaurant-owner-button{
+        height: 46px;
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .hero-section-stuff{
+        font-size: 32px;
+    }
+
+    .checkout-restaurants, .from-all-places-in-Algeria {
+        color: white;
+        padding: 2%;
+        font-size: 40px;
+    }
+
+    .hero-section-search{
+        flex-direction: column;
+        height: fit-content;
+        gap: 60px;
+    }
+
+    .hero-section-search-input{
+        width: 100%;
+        padding-left: 71px;
+        text-overflow: ellipsis;
+    }
+
+    .loupe-icon{
+        transform: translate(calc(100% + 15px), 15px);
+        left: 0%;
+    }
+
+    .sub-section-title{
+        font-size: max(20px, 6.4vw);
+    }
+
+    .restaurant-owner-sub-section{
+        width: 100%;
+        height: fit-content;
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+
+    .restaurant-owner-sub-section-title{
+        font-size: 24px;
+    }
+
+    .restaurant-owner-sub-section-para{
+        font-size: 16px;
+    }
+
+    .restaurant-owner-section{
+        height: fit-content;
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+
+    .footer-up{
+        align-items: center;
+    }
+
+    .user-inputs{
+        flex-direction: column;
+        align-items: center;
+    }
+    .user-name,
+    .user-email{
+        min-width: 100%;
+    }
+}
